@@ -1,0 +1,41 @@
+body {
+
+	font-family: Arial
+
+}
+
+section {
+
+	clear: both;
+}
+
+article {
+
+	text-align: left;
+	width: 45%
+
+}
+
+aside {
+
+	width: 65%
+}
+
+
+
+h1 {
+
+	text-align: center;
+
+}
+
+h2 {
+
+	text-align: center;
+}
+
+h3 {
+
+	text-align: center;
+}
+
