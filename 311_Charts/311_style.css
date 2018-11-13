@@ -1,37 +1,73 @@
-body {
+/* CSS File */
 
-	font-family: Arial
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	font-family: sans-serif;
+}
+
+main {
+	width: 50%;
+	margin: 0 auto;
 
 }
 
-section {
+.plumbin-image {
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+	background: url("plumbin_image.jpg"); no-repeat center;
+	background-size: cover;
+}
 
-	clear: both;
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: black;
+	font-weight: 700;
+}
+
+.container h1 {
+	font-size: 50px;
+	letter-spacing: 0.2em;
+}
+
+.container h1 span {
+	border: 10px solid black;
+	padding: 6px 14px;
+	display: inline-block;
+
+}
+
+.des {
+	margin: 20px;
+	display: block;
+	font-size: 26px;
+	text-shadow: 0 0 10px black;
+}
+
+.btn {
+	color: white;
+	padding: 10px 24px;
+	font-size: 20px;
+	text-decoration: none;
+	background: black;
+	border-radius: 8px;
+	transition: 0.3s all;
+}
+
+.btn:hover {
+	opacity: 0.6;
+
 }
 
 article {
-
 	text-align: left;
-	width: 45%
-
-}
-
-aside {
-
-	width: 65%
-}
-
-
-
-h1 {
-
-	text-align: center;
-
-}
-
-h2 {
-
-	text-align: center;
 }
 
 h3 {
